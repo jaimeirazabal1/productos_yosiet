@@ -55,8 +55,11 @@ AppAsset::register($this);
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li>'.Html::a('Type Service', ['/typeservice/index']).'</li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li> 
+          <li>'.Html::a('Location Advert', ['/locationadvert/index']).'</li>
+          <li>'.Html::a('Advert', ['/advert/index']).'</li> 
+          <li>'.Html::a('Country', ['/country/index']).'</li> 
+          <li>'.Html::a('City', ['/city/index']).'</li> 
+          <li>'.Html::a('Site', ['/servicesite/index']).'</li> 
         </ul>
       </li>'
 
